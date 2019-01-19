@@ -1,19 +1,20 @@
-### How to convert video files from mp4 to avi (for mac OS)
+### mp4 to avi (for mac OS)
+Command line tool for converting .mp4 video to .avi for mac OS
 #### Requirements:
+- [Homebrew](https://brew.sh/)
+- [ffmpeg](https://www.ffmpeg.org/)
 
-  - Install [Homebrew](https://brew.sh/) if not already installed (might require your password)
-  - In your terminal  run: `brew install ffmpeg`
-  - Also in your terminal run: `ffmpeg -i oldFile.mp4 newFile.avi`
-
-Or to complete all this in one step... try running this in your terminal
-
+#### Set-up:  
+To install the requirements, run this in your terminal
 ```bash
 echo "Installing Homebrew (this may require your password)"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Installing ffmpeg package"
 brew install ffmpeg
-
+```
+#### File Conversion:
+```bash
 echo "Running Converter (replace files with your own)"
 ffmpeg -i oldFile.mp4 newFile.avi
 ```
