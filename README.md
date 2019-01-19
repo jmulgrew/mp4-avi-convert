@@ -1,4 +1,4 @@
-## How to convert video files from mp4 to avi (for mac OS)
+### How to convert video files from mp4 to avi (for mac OS)
 #### Requirements:
 
   - Install [Homebrew](https://brew.sh/) if not already installed (might require your password)
